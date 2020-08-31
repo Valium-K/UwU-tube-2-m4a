@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:background="#424242"
+                                                   tools:context=".How2Activity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- How 2 Use - \n    Open Youtube App and Share the video u want.\n    Then UwU will convert it to m4a files.\n\n\n    If background download stops,\n    please turn battery-management-mode off.\n\n                                                        Thx!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:textColor="#FFFFFF" android:textStyle="bold"
+            android:textSize="14sp" android:fontFamily="casual"
+            app:layout_constraintHorizontal_bias="0.473"/>
+
+</LinearLayout>
