@@ -80,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
                             showToastMessage("Downloading m4a now.");
                         else {
                             // fail
+                            threadCounter--;
                         }
 
                     } catch (YoutubeException e) {
